@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Results</title>
+    <style>
+        body { padding-top: 20px; }
+        .container { max-width: 600px; }
+        .btn-nike { background-color: #111; color: #fff; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center">Your Results</h2>
+        <p class="mt-4">Your estimated Total Daily Energy Expenditure (TDEE) based on your activity level is: <strong>{{ tdee }}</strong> calories/day.</p>
+        <p>To lose weight safely, you might aim to consume between <strong>{{ low_end_intake }}</strong> to <strong>{{ high_end_intake }}</strong> calories per day. This is based on a deficit of 500 to 1000 calories per day from your TDEE, which is generally recommended for a weight loss rate of approximately 1 to 2 pounds per week.</p>
+        <a href="/" class="btn btn-nike">Calculate Again</a>
+    </div>
+</body>
+</html>
